@@ -5,9 +5,12 @@
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.20",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-icons": "^3.11.0",
     "react-scripts": "3.4.4"
   },
   "scripts": {
@@ -30,5 +33,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@axe-core/react": "^4.0.0",
+    "@testing-library/dom": "^7.26.3",
+    "@testing-library/react-hooks": "^3.4.2",
+    "@testing-library/user-event": "^7.2.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "msw": "^0.21.3",
+    "node-sass": "^4.14.1",
+    "react-test-renderer": "^17.0.1",
+    "waait": "^1.0.5"
   }
 }
